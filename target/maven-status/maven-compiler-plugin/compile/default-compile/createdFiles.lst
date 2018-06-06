@@ -1,0 +1,5 @@
+com\test\apirest\service\PersonaService.class
+com\test\apirest\controller\PersonaController.class
+com\test\apirest\dao\PersonaDao.class
+com\test\apirest\entity\Persona.class
+com\test\apirest\ApirestApplication.class

@@ -1,6 +1,5 @@
-C:\Users\mdcx\git\SpringBootRESTApp\src\main\java\org\tahsan\springboot\starter\persona\PersonaController.java
-C:\Users\mdcx\git\SpringBootRESTApp\src\main\java\org\tahsan\springboot\starter\persona\Persona.java
-C:\Users\mdcx\git\SpringBootRESTApp\src\main\java\org\tahsan\springboot\starter\controller\HelloController.java
-C:\Users\mdcx\git\SpringBootRESTApp\src\main\java\org\tahsan\springboot\starter\persona\PersonaRepository.java
-C:\Users\mdcx\git\SpringBootRESTApp\src\main\java\org\tahsan\springboot\starter\SpringBootStarter.java
-C:\Users\mdcx\git\SpringBootRESTApp\src\main\java\org\tahsan\springboot\starter\persona\PersonaService.java
+C:\Users\mdcx\Desktop\apirest\apirest\src\main\java\com\test\apirest\controller\PersonaController.java
+C:\Users\mdcx\Desktop\apirest\apirest\src\main\java\com\test\apirest\dao\PersonaDao.java
+C:\Users\mdcx\Desktop\apirest\apirest\src\main\java\com\test\apirest\ApirestApplication.java
+C:\Users\mdcx\Desktop\apirest\apirest\src\main\java\com\test\apirest\entity\Persona.java
+C:\Users\mdcx\Desktop\apirest\apirest\src\main\java\com\test\apirest\service\PersonaService.java

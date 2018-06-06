@@ -4,7 +4,7 @@
 2. **POST** : http://localhost:8080/api/persona
 3. **PUT**  : http://localhost:8080/api/changepersona
 4. **DELETE**  : http://localhost:8080/api/removepersona/id
-5. **Get (Only One)**  : http://localhost:8080/api/viewsinglepersona/id
+5. **GET (Only One)**  : http://localhost:8080/api/viewsinglepersona/id
 
 ### HSQLDB Setup
 ```

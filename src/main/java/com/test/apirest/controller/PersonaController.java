@@ -28,23 +28,45 @@ public class PersonaController {
     @PostMapping("/api/persona")
     @Consumes("application/json")
     public void createNewPersona(@Valid @RequestBody Persona persona) {
-        personaService.addPersona(persona);
+        if(persona.getPersonaNombre()!="" && persona.getPersonaApellido()!= "" 
+                && persona.getPersonaSexo()!="" &&persona.getPersonaEdad()!=0){
+            try {
+                personaService.addPersona(persona);
+            } catch (Exception e) {
+                System.out.println(e.fillInStackTrace());
+            }
+        }else{
+            System.out.println("Datos no validos");
+        }
+        
     }
  
     @PutMapping("/api/changepersona")
     @Consumes("application/json")
     public void changeExistingPersona(@Valid @RequestBody Persona persona) {
-        personaService.modifyPersona(persona);
+        
+        try {
+            personaService.modifyPersona(persona);
+        } catch (Exception e) {
+            System.out.println(e.fillInStackTrace());
+        }
+        
+        
     }
  
     @DeleteMapping("/api/removepersona/{id}")
     public void removePersona(@PathVariable(value = "id") int personaId) {
-        personaService.removePersona(personaId);
+        try {
+            personaService.removePersona(personaId);
+        } catch (Exception e) {
+            System.out.println(e.fillInStackTrace());
+        }
+        
     }
  
     @GetMapping("/api/viewsinglepersona/{id}")
     public Persona viewPersonaById(@PathVariable(value = "id") int personaId) {
-        return personaService.getPersonaById(personaId);
+            return personaService.getPersonaById(personaId); 
     }
  
     @GetMapping("/api/personas")
